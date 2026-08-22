@@ -59,7 +59,7 @@ PROMPTS_DIR = Path(__file__).parent.parent / "agents" / "trail_guide_agent" / "p
 TEST_PROMPTS_DIR = Path(__file__).parent / "test-prompts"
 
 # Prompt versions to compare
-VERSIONS = ["v1", "v2", "v3"]
+VERSIONS = ["v1", "v2", "v3","v4"]
 
 
 def load_prompt(version: str) -> str:
